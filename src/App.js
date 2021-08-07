@@ -21,21 +21,12 @@ export default function App() {
 			],
 		},
 		{
-			questionText: "Qual a sintaxe correta para mudar o conteúdo do elemento HTML abaixo?\n\n<p id='demo'>I am bluemer</p>",
+			questionText: "Qual a sintaxe correta para mudar o conteúdo do elemento HTML abaixo?<code><p id='demo'>I am bluemer</p><code>",
 			answerOptions: [
 				{ answerText:"document.getElement('p').innerHTML = 'Hello World!'" , isCorrect: false },
 				{ answerText: "document.getElementById('demo').innerHTML = 'Hello World!'", isCorrect: true },
 				{ answerText: "#demo.innerHTML = 'Hello World!'", isCorrect: false },
 				{ answerText:"document.getElementByName('p').innerHTML = 'Hello World!'", isCorrect: false },
-			],
-		},
-		{
-			questionText: 'How many Harry Potter books are there?',
-			answerOptions: [
-				{ answerText: '1', isCorrect: false },
-				{ answerText: '4', isCorrect: false },
-				{ answerText: '6', isCorrect: false },
-				{ answerText: '7', isCorrect: true },
 			],
 		},
 	];
